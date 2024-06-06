@@ -1,7 +1,6 @@
 #ifndef PARAMS_HXAVX2
 #define PARAMS_HXAVX2
 
-#define xwing_NAMESPACE(s) xwing_ref_##s
 
 #define DH_BYTES 32
 
