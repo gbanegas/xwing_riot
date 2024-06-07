@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/xwing_riot.dir/main.c.o -o xwing_riot 

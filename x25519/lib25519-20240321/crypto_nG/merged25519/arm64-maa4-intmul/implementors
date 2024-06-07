@@ -1,0 +1,2 @@
+ge25519_base.S, fe25519_{mul, square, nsquare, add, sub, freeze}.S: Kaushik Nath
+other code: see amd64-64-24k
