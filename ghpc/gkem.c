@@ -5,10 +5,10 @@
 #include <stdlib.h>
 #include <lib25519.h>
 #include "gkem.h"
-#include "params.h"
-#include "../../mlkem/ref/symmetric.h"
-#include "../../mlkem/ref/kem.h"
-#include "../../dhkem/ref/kem.h"
+#include "ghkem_params.h"
+#include "../mlkem/symmetric.h"
+#include "../mlkem/kem.h"
+#include "../dhkem/kem.h"
 
 /*************************************************
  * Name:        crypto_gkem_keypair

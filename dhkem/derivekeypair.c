@@ -4,7 +4,7 @@
 #include <string.h>
 #include <sodium.h>
 #include "extractexpand.h"
-#include "params.h"
+#include "dhkem_params.h"
 
 void deriveKeyPair(unsigned char *sk, unsigned char *pk, const unsigned char *ikm);
 

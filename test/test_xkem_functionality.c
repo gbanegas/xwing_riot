@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
-#include "../../../mlkem/avx2/randombytes.h"
+#include "../mlkem/randombytes.h"
 #include "../params.h"
 #include "../xkem.h"
 #include "test_vectors.h"

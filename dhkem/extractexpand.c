@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stddef.h>
-#include "params.h"
+#include "dhkem_params.h"
 
 void extractAndExpand(unsigned char *sharedSecret, unsigned char *dh, unsigned char *kemContext);
 

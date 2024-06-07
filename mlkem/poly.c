@@ -1,5 +1,5 @@
 #include <stdint.h>
-#include "params.h"
+#include "mlkem_params.h"
 #include "poly.h"
 #include "ntt.h"
 #include "reduce.h"

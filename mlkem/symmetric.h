@@ -1,7 +1,7 @@
 #ifndef SYMMETRIC_H
 #define SYMMETRIC_H
 
-#include "params.h"
+#include "mlkem_params.h"
 
 #ifdef MLKEM_90S
 

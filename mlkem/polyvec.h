@@ -1,7 +1,7 @@
 #ifndef POLYVEC_H
 #define POLYVEC_H
 
-#include "params.h"
+#include "mlkem_params.h"
 #include "poly.h"
 
 typedef struct{

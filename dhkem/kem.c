@@ -6,7 +6,7 @@
 #include <lib25519.h>
 #include <string.h>
 #include "kem.h"
-#include "params.h"
+#include "dhkem_params.h"
 #include "derivekeypair.h"
 #include "extractexpand.h"
 
