@@ -8,11 +8,13 @@
 
 uint64_t t[NTESTS];
 
+
+
 int main(void) {
     size_t i;
 
-    uint8_t pk[XWING_PUBLICKEYBYTES];
-    uint8_t sk[XWING_SECRETKEYBYTES];
+    uint8_t pk[XWING_PUBLICKEYBYTES] = {0};
+    uint8_t sk[XWING_SECRETKEYBYTES] = {0};
     uint8_t pt[XWING_SSBYTES];
     uint8_t ct[XWING_CIPHERTEXTBYTES];
     uint8_t randomness0[XWING_SYMBYTES * 3];
@@ -23,22 +25,22 @@ int main(void) {
     fread(randomness1, 2 * XWING_SYMBYTES, 1, urandom);
     fclose(urandom);
 
-    for(i = 0; i < NTESTS; ++i) {
-    //    t[i] = cpucycles();
+    for (i = 0; i < NTESTS; ++i) {
+        //    t[i] = cpucycles();
         crypto_xkem_keypair_derand(pk, sk, randomness0);
     }
     print_results("xkem_keypair:", t, NTESTS);
 
 
-    for(i = 0; i < NTESTS; ++i) {
-    //    t[i] = cpucycles();
+    for (i = 0; i < NTESTS; ++i) {
+        //    t[i] = cpucycles();
         crypto_xkem_enc_derand(ct, pt, pk, randomness1);
     }
     print_results("xkem_enc:", t, NTESTS);
 
 
-    for(i = 0; i < NTESTS; ++i) {
-    //    t[i] = cpucycles();
+    for (i = 0; i < NTESTS; ++i) {
+        //    t[i] = cpucycles();
         crypto_xkem_dec(pt, ct, sk);
     }
     print_results("xkem_dec:", t, NTESTS);

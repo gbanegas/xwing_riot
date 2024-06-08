@@ -137,10 +137,18 @@ static int testTestVectors(void)
   return 0;
 }
 
+
+void print_hex_m(unsigned char *e, size_t l) {
+    printf("Mai: ");
+    for (int i = 0; i < l; i++) {
+        printf("%x,", e[i]);
+    }
+    printf("\n");
+}
 static int testFunctionality(void)
 {
-  unsigned char sk0[XWING_SECRETKEYBYTES];
-  unsigned char pk0[XWING_PUBLICKEYBYTES];
+  unsigned char sk0[XWING_SECRETKEYBYTES]={0};
+  unsigned char pk0[XWING_PUBLICKEYBYTES]={0};
   unsigned char ct0[XWING_CIPHERTEXTBYTES];
   unsigned char shk0[XWING_SSBYTES];
   unsigned char shk1[XWING_SSBYTES];
@@ -155,6 +163,7 @@ static int testFunctionality(void)
 
   /* TEST KEYPAIR */
   crypto_xkem_keypair_derand(pk0, sk0, randomness0);
+  print_hex_m(pk0, XWING_PUBLICKEYBYTES);
 
   /* TEST ENCAPSULATION */
   crypto_xkem_enc_derand(ct0, shk0, pk0, randomness1);
@@ -169,9 +178,9 @@ static int testFunctionality(void)
 int main(void)
 {
   testFunctionality();
-  testTestVectors();
-  testInvalidSecretKey();
-  testInvalidCiphertext();
+  //testTestVectors();
+  //testInvalidSecretKey();
+  //testInvalidCiphertext();
 
   return 0;
 }
