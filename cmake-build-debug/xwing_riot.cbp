@@ -55,6 +55,44 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/obiwan/xwing_riot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="255tmp">
+				<Option output="/home/obiwan/xwing_riot/cmake-build-debug/255tmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/obiwan/xwing_riot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/obiwan/xwing_riot/cmake-build-debug/Makefile&quot;  VERBOSE=1 255tmp"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/obiwan/xwing_riot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/obiwan/xwing_riot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/obiwan/xwing_riot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="255tmp/fast">
+				<Option output="/home/obiwan/xwing_riot/cmake-build-debug/255tmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/obiwan/xwing_riot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/obiwan/xwing_riot/cmake-build-debug/Makefile&quot;  VERBOSE=1 255tmp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/obiwan/xwing_riot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/obiwan/xwing_riot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/obiwan/xwing_riot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/obiwan/xwing_riot/cmake-build-debug"/>
 				<Option type="4"/>
@@ -76,7 +114,145 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/burn.c">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/burn.h">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/burnstack.c">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/burnstack.h">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/ed.c">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/ed.h">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/ed25519-sha512.c">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/fld.c">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/fld.h">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/sc.c">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/sc.h">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/sha512.c">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/sha512.h">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/x25519.c">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/ed255/x25519.h">
+			<Option target="xwing_riot"/>
+			<Option target="255tmp"/>
+		</Unit>
 		<Unit filename="/home/obiwan/xwing_riot/main.c">
+			<Option target="255tmp"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/cbd.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/cbd.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/fips202.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/fips202.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/indcpa.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/indcpa.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/kem.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/kem.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/ntt.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/ntt.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/poly.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/poly.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/polyvec.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/polyvec.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/randombytes.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/randombytes.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/reduce.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/reduce.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/mlkem/symmetric-fips202.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/test/cpucycles.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/test/cpucycles.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/test/speed_print.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/test/speed_print.h">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/test/test_xkem_functionality.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/xkem.c">
+			<Option target="xwing_riot"/>
+		</Unit>
+		<Unit filename="/home/obiwan/xwing_riot/xkem.h">
 			<Option target="xwing_riot"/>
 		</Unit>
 		<Unit filename="/home/obiwan/xwing_riot/CMakeLists.txt">

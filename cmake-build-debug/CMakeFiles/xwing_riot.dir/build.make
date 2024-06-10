@@ -69,31 +69,367 @@ include CMakeFiles/xwing_riot.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/xwing_riot.dir/flags.make
 
-CMakeFiles/xwing_riot.dir/main.c.o: CMakeFiles/xwing_riot.dir/flags.make
-CMakeFiles/xwing_riot.dir/main.c.o: /home/obiwan/xwing_riot/main.c
-CMakeFiles/xwing_riot.dir/main.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/xwing_riot.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/main.c.o -MF CMakeFiles/xwing_riot.dir/main.c.o.d -o CMakeFiles/xwing_riot.dir/main.c.o -c /home/obiwan/xwing_riot/main.c
+CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o: /home/obiwan/xwing_riot/test/test_xkem_functionality.c
+CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o -MF CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o.d -o CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o -c /home/obiwan/xwing_riot/test/test_xkem_functionality.c
 
-CMakeFiles/xwing_riot.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/main.c > CMakeFiles/xwing_riot.dir/main.c.i
+CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/test/test_xkem_functionality.c > CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.i
 
-CMakeFiles/xwing_riot.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/main.c -o CMakeFiles/xwing_riot.dir/main.c.s
+CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/test/test_xkem_functionality.c -o CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.s
+
+CMakeFiles/xwing_riot.dir/xkem.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/xkem.c.o: /home/obiwan/xwing_riot/xkem.c
+CMakeFiles/xwing_riot.dir/xkem.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/xwing_riot.dir/xkem.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/xkem.c.o -MF CMakeFiles/xwing_riot.dir/xkem.c.o.d -o CMakeFiles/xwing_riot.dir/xkem.c.o -c /home/obiwan/xwing_riot/xkem.c
+
+CMakeFiles/xwing_riot.dir/xkem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/xkem.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/xkem.c > CMakeFiles/xwing_riot.dir/xkem.c.i
+
+CMakeFiles/xwing_riot.dir/xkem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/xkem.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/xkem.c -o CMakeFiles/xwing_riot.dir/xkem.c.s
+
+CMakeFiles/xwing_riot.dir/test/cpucycles.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/test/cpucycles.c.o: /home/obiwan/xwing_riot/test/cpucycles.c
+CMakeFiles/xwing_riot.dir/test/cpucycles.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/xwing_riot.dir/test/cpucycles.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/test/cpucycles.c.o -MF CMakeFiles/xwing_riot.dir/test/cpucycles.c.o.d -o CMakeFiles/xwing_riot.dir/test/cpucycles.c.o -c /home/obiwan/xwing_riot/test/cpucycles.c
+
+CMakeFiles/xwing_riot.dir/test/cpucycles.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/test/cpucycles.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/test/cpucycles.c > CMakeFiles/xwing_riot.dir/test/cpucycles.c.i
+
+CMakeFiles/xwing_riot.dir/test/cpucycles.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/test/cpucycles.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/test/cpucycles.c -o CMakeFiles/xwing_riot.dir/test/cpucycles.c.s
+
+CMakeFiles/xwing_riot.dir/test/speed_print.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/test/speed_print.c.o: /home/obiwan/xwing_riot/test/speed_print.c
+CMakeFiles/xwing_riot.dir/test/speed_print.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/xwing_riot.dir/test/speed_print.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/test/speed_print.c.o -MF CMakeFiles/xwing_riot.dir/test/speed_print.c.o.d -o CMakeFiles/xwing_riot.dir/test/speed_print.c.o -c /home/obiwan/xwing_riot/test/speed_print.c
+
+CMakeFiles/xwing_riot.dir/test/speed_print.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/test/speed_print.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/test/speed_print.c > CMakeFiles/xwing_riot.dir/test/speed_print.c.i
+
+CMakeFiles/xwing_riot.dir/test/speed_print.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/test/speed_print.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/test/speed_print.c -o CMakeFiles/xwing_riot.dir/test/speed_print.c.s
+
+CMakeFiles/xwing_riot.dir/mlkem/reduce.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/mlkem/reduce.c.o: /home/obiwan/xwing_riot/mlkem/reduce.c
+CMakeFiles/xwing_riot.dir/mlkem/reduce.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/xwing_riot.dir/mlkem/reduce.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/mlkem/reduce.c.o -MF CMakeFiles/xwing_riot.dir/mlkem/reduce.c.o.d -o CMakeFiles/xwing_riot.dir/mlkem/reduce.c.o -c /home/obiwan/xwing_riot/mlkem/reduce.c
+
+CMakeFiles/xwing_riot.dir/mlkem/reduce.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/mlkem/reduce.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/mlkem/reduce.c > CMakeFiles/xwing_riot.dir/mlkem/reduce.c.i
+
+CMakeFiles/xwing_riot.dir/mlkem/reduce.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/mlkem/reduce.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/mlkem/reduce.c -o CMakeFiles/xwing_riot.dir/mlkem/reduce.c.s
+
+CMakeFiles/xwing_riot.dir/mlkem/ntt.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/mlkem/ntt.c.o: /home/obiwan/xwing_riot/mlkem/ntt.c
+CMakeFiles/xwing_riot.dir/mlkem/ntt.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/xwing_riot.dir/mlkem/ntt.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/mlkem/ntt.c.o -MF CMakeFiles/xwing_riot.dir/mlkem/ntt.c.o.d -o CMakeFiles/xwing_riot.dir/mlkem/ntt.c.o -c /home/obiwan/xwing_riot/mlkem/ntt.c
+
+CMakeFiles/xwing_riot.dir/mlkem/ntt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/mlkem/ntt.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/mlkem/ntt.c > CMakeFiles/xwing_riot.dir/mlkem/ntt.c.i
+
+CMakeFiles/xwing_riot.dir/mlkem/ntt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/mlkem/ntt.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/mlkem/ntt.c -o CMakeFiles/xwing_riot.dir/mlkem/ntt.c.s
+
+CMakeFiles/xwing_riot.dir/mlkem/poly.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/mlkem/poly.c.o: /home/obiwan/xwing_riot/mlkem/poly.c
+CMakeFiles/xwing_riot.dir/mlkem/poly.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/xwing_riot.dir/mlkem/poly.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/mlkem/poly.c.o -MF CMakeFiles/xwing_riot.dir/mlkem/poly.c.o.d -o CMakeFiles/xwing_riot.dir/mlkem/poly.c.o -c /home/obiwan/xwing_riot/mlkem/poly.c
+
+CMakeFiles/xwing_riot.dir/mlkem/poly.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/mlkem/poly.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/mlkem/poly.c > CMakeFiles/xwing_riot.dir/mlkem/poly.c.i
+
+CMakeFiles/xwing_riot.dir/mlkem/poly.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/mlkem/poly.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/mlkem/poly.c -o CMakeFiles/xwing_riot.dir/mlkem/poly.c.s
+
+CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.o: /home/obiwan/xwing_riot/mlkem/polyvec.c
+CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.o -MF CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.o.d -o CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.o -c /home/obiwan/xwing_riot/mlkem/polyvec.c
+
+CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/mlkem/polyvec.c > CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.i
+
+CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/mlkem/polyvec.c -o CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.s
+
+CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.o: /home/obiwan/xwing_riot/mlkem/randombytes.c
+CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.o -MF CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.o.d -o CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.o -c /home/obiwan/xwing_riot/mlkem/randombytes.c
+
+CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/mlkem/randombytes.c > CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.i
+
+CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/mlkem/randombytes.c -o CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.s
+
+CMakeFiles/xwing_riot.dir/mlkem/fips202.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/mlkem/fips202.c.o: /home/obiwan/xwing_riot/mlkem/fips202.c
+CMakeFiles/xwing_riot.dir/mlkem/fips202.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/xwing_riot.dir/mlkem/fips202.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/mlkem/fips202.c.o -MF CMakeFiles/xwing_riot.dir/mlkem/fips202.c.o.d -o CMakeFiles/xwing_riot.dir/mlkem/fips202.c.o -c /home/obiwan/xwing_riot/mlkem/fips202.c
+
+CMakeFiles/xwing_riot.dir/mlkem/fips202.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/mlkem/fips202.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/mlkem/fips202.c > CMakeFiles/xwing_riot.dir/mlkem/fips202.c.i
+
+CMakeFiles/xwing_riot.dir/mlkem/fips202.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/mlkem/fips202.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/mlkem/fips202.c -o CMakeFiles/xwing_riot.dir/mlkem/fips202.c.s
+
+CMakeFiles/xwing_riot.dir/mlkem/cbd.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/mlkem/cbd.c.o: /home/obiwan/xwing_riot/mlkem/cbd.c
+CMakeFiles/xwing_riot.dir/mlkem/cbd.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/xwing_riot.dir/mlkem/cbd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/mlkem/cbd.c.o -MF CMakeFiles/xwing_riot.dir/mlkem/cbd.c.o.d -o CMakeFiles/xwing_riot.dir/mlkem/cbd.c.o -c /home/obiwan/xwing_riot/mlkem/cbd.c
+
+CMakeFiles/xwing_riot.dir/mlkem/cbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/mlkem/cbd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/mlkem/cbd.c > CMakeFiles/xwing_riot.dir/mlkem/cbd.c.i
+
+CMakeFiles/xwing_riot.dir/mlkem/cbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/mlkem/cbd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/mlkem/cbd.c -o CMakeFiles/xwing_riot.dir/mlkem/cbd.c.s
+
+CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.o: /home/obiwan/xwing_riot/mlkem/indcpa.c
+CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.o -MF CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.o.d -o CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.o -c /home/obiwan/xwing_riot/mlkem/indcpa.c
+
+CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/mlkem/indcpa.c > CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.i
+
+CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/mlkem/indcpa.c -o CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.s
+
+CMakeFiles/xwing_riot.dir/mlkem/kem.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/mlkem/kem.c.o: /home/obiwan/xwing_riot/mlkem/kem.c
+CMakeFiles/xwing_riot.dir/mlkem/kem.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/xwing_riot.dir/mlkem/kem.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/mlkem/kem.c.o -MF CMakeFiles/xwing_riot.dir/mlkem/kem.c.o.d -o CMakeFiles/xwing_riot.dir/mlkem/kem.c.o -c /home/obiwan/xwing_riot/mlkem/kem.c
+
+CMakeFiles/xwing_riot.dir/mlkem/kem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/mlkem/kem.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/mlkem/kem.c > CMakeFiles/xwing_riot.dir/mlkem/kem.c.i
+
+CMakeFiles/xwing_riot.dir/mlkem/kem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/mlkem/kem.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/mlkem/kem.c -o CMakeFiles/xwing_riot.dir/mlkem/kem.c.s
+
+CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.o: /home/obiwan/xwing_riot/mlkem/symmetric-fips202.c
+CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.o -MF CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.o.d -o CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.o -c /home/obiwan/xwing_riot/mlkem/symmetric-fips202.c
+
+CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/mlkem/symmetric-fips202.c > CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.i
+
+CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/mlkem/symmetric-fips202.c -o CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.s
+
+CMakeFiles/xwing_riot.dir/ed255/burn.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/ed255/burn.c.o: /home/obiwan/xwing_riot/ed255/burn.c
+CMakeFiles/xwing_riot.dir/ed255/burn.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/xwing_riot.dir/ed255/burn.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/ed255/burn.c.o -MF CMakeFiles/xwing_riot.dir/ed255/burn.c.o.d -o CMakeFiles/xwing_riot.dir/ed255/burn.c.o -c /home/obiwan/xwing_riot/ed255/burn.c
+
+CMakeFiles/xwing_riot.dir/ed255/burn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/ed255/burn.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/ed255/burn.c > CMakeFiles/xwing_riot.dir/ed255/burn.c.i
+
+CMakeFiles/xwing_riot.dir/ed255/burn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/ed255/burn.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/ed255/burn.c -o CMakeFiles/xwing_riot.dir/ed255/burn.c.s
+
+CMakeFiles/xwing_riot.dir/ed255/burnstack.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/ed255/burnstack.c.o: /home/obiwan/xwing_riot/ed255/burnstack.c
+CMakeFiles/xwing_riot.dir/ed255/burnstack.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/xwing_riot.dir/ed255/burnstack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/ed255/burnstack.c.o -MF CMakeFiles/xwing_riot.dir/ed255/burnstack.c.o.d -o CMakeFiles/xwing_riot.dir/ed255/burnstack.c.o -c /home/obiwan/xwing_riot/ed255/burnstack.c
+
+CMakeFiles/xwing_riot.dir/ed255/burnstack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/ed255/burnstack.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/ed255/burnstack.c > CMakeFiles/xwing_riot.dir/ed255/burnstack.c.i
+
+CMakeFiles/xwing_riot.dir/ed255/burnstack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/ed255/burnstack.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/ed255/burnstack.c -o CMakeFiles/xwing_riot.dir/ed255/burnstack.c.s
+
+CMakeFiles/xwing_riot.dir/ed255/ed.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/ed255/ed.c.o: /home/obiwan/xwing_riot/ed255/ed.c
+CMakeFiles/xwing_riot.dir/ed255/ed.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/xwing_riot.dir/ed255/ed.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/ed255/ed.c.o -MF CMakeFiles/xwing_riot.dir/ed255/ed.c.o.d -o CMakeFiles/xwing_riot.dir/ed255/ed.c.o -c /home/obiwan/xwing_riot/ed255/ed.c
+
+CMakeFiles/xwing_riot.dir/ed255/ed.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/ed255/ed.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/ed255/ed.c > CMakeFiles/xwing_riot.dir/ed255/ed.c.i
+
+CMakeFiles/xwing_riot.dir/ed255/ed.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/ed255/ed.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/ed255/ed.c -o CMakeFiles/xwing_riot.dir/ed255/ed.c.s
+
+CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.o: /home/obiwan/xwing_riot/ed255/ed25519-sha512.c
+CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.o -MF CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.o.d -o CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.o -c /home/obiwan/xwing_riot/ed255/ed25519-sha512.c
+
+CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/ed255/ed25519-sha512.c > CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.i
+
+CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/ed255/ed25519-sha512.c -o CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.s
+
+CMakeFiles/xwing_riot.dir/ed255/fld.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/ed255/fld.c.o: /home/obiwan/xwing_riot/ed255/fld.c
+CMakeFiles/xwing_riot.dir/ed255/fld.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/xwing_riot.dir/ed255/fld.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/ed255/fld.c.o -MF CMakeFiles/xwing_riot.dir/ed255/fld.c.o.d -o CMakeFiles/xwing_riot.dir/ed255/fld.c.o -c /home/obiwan/xwing_riot/ed255/fld.c
+
+CMakeFiles/xwing_riot.dir/ed255/fld.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/ed255/fld.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/ed255/fld.c > CMakeFiles/xwing_riot.dir/ed255/fld.c.i
+
+CMakeFiles/xwing_riot.dir/ed255/fld.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/ed255/fld.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/ed255/fld.c -o CMakeFiles/xwing_riot.dir/ed255/fld.c.s
+
+CMakeFiles/xwing_riot.dir/ed255/sc.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/ed255/sc.c.o: /home/obiwan/xwing_riot/ed255/sc.c
+CMakeFiles/xwing_riot.dir/ed255/sc.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/xwing_riot.dir/ed255/sc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/ed255/sc.c.o -MF CMakeFiles/xwing_riot.dir/ed255/sc.c.o.d -o CMakeFiles/xwing_riot.dir/ed255/sc.c.o -c /home/obiwan/xwing_riot/ed255/sc.c
+
+CMakeFiles/xwing_riot.dir/ed255/sc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/ed255/sc.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/ed255/sc.c > CMakeFiles/xwing_riot.dir/ed255/sc.c.i
+
+CMakeFiles/xwing_riot.dir/ed255/sc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/ed255/sc.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/ed255/sc.c -o CMakeFiles/xwing_riot.dir/ed255/sc.c.s
+
+CMakeFiles/xwing_riot.dir/ed255/sha512.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/ed255/sha512.c.o: /home/obiwan/xwing_riot/ed255/sha512.c
+CMakeFiles/xwing_riot.dir/ed255/sha512.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/xwing_riot.dir/ed255/sha512.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/ed255/sha512.c.o -MF CMakeFiles/xwing_riot.dir/ed255/sha512.c.o.d -o CMakeFiles/xwing_riot.dir/ed255/sha512.c.o -c /home/obiwan/xwing_riot/ed255/sha512.c
+
+CMakeFiles/xwing_riot.dir/ed255/sha512.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/ed255/sha512.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/ed255/sha512.c > CMakeFiles/xwing_riot.dir/ed255/sha512.c.i
+
+CMakeFiles/xwing_riot.dir/ed255/sha512.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/ed255/sha512.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/ed255/sha512.c -o CMakeFiles/xwing_riot.dir/ed255/sha512.c.s
+
+CMakeFiles/xwing_riot.dir/ed255/x25519.c.o: CMakeFiles/xwing_riot.dir/flags.make
+CMakeFiles/xwing_riot.dir/ed255/x25519.c.o: /home/obiwan/xwing_riot/ed255/x25519.c
+CMakeFiles/xwing_riot.dir/ed255/x25519.c.o: CMakeFiles/xwing_riot.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/xwing_riot.dir/ed255/x25519.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/xwing_riot.dir/ed255/x25519.c.o -MF CMakeFiles/xwing_riot.dir/ed255/x25519.c.o.d -o CMakeFiles/xwing_riot.dir/ed255/x25519.c.o -c /home/obiwan/xwing_riot/ed255/x25519.c
+
+CMakeFiles/xwing_riot.dir/ed255/x25519.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xwing_riot.dir/ed255/x25519.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/obiwan/xwing_riot/ed255/x25519.c > CMakeFiles/xwing_riot.dir/ed255/x25519.c.i
+
+CMakeFiles/xwing_riot.dir/ed255/x25519.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xwing_riot.dir/ed255/x25519.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/obiwan/xwing_riot/ed255/x25519.c -o CMakeFiles/xwing_riot.dir/ed255/x25519.c.s
 
 # Object files for target xwing_riot
 xwing_riot_OBJECTS = \
-"CMakeFiles/xwing_riot.dir/main.c.o"
+"CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o" \
+"CMakeFiles/xwing_riot.dir/xkem.c.o" \
+"CMakeFiles/xwing_riot.dir/test/cpucycles.c.o" \
+"CMakeFiles/xwing_riot.dir/test/speed_print.c.o" \
+"CMakeFiles/xwing_riot.dir/mlkem/reduce.c.o" \
+"CMakeFiles/xwing_riot.dir/mlkem/ntt.c.o" \
+"CMakeFiles/xwing_riot.dir/mlkem/poly.c.o" \
+"CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.o" \
+"CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.o" \
+"CMakeFiles/xwing_riot.dir/mlkem/fips202.c.o" \
+"CMakeFiles/xwing_riot.dir/mlkem/cbd.c.o" \
+"CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.o" \
+"CMakeFiles/xwing_riot.dir/mlkem/kem.c.o" \
+"CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.o" \
+"CMakeFiles/xwing_riot.dir/ed255/burn.c.o" \
+"CMakeFiles/xwing_riot.dir/ed255/burnstack.c.o" \
+"CMakeFiles/xwing_riot.dir/ed255/ed.c.o" \
+"CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.o" \
+"CMakeFiles/xwing_riot.dir/ed255/fld.c.o" \
+"CMakeFiles/xwing_riot.dir/ed255/sc.c.o" \
+"CMakeFiles/xwing_riot.dir/ed255/sha512.c.o" \
+"CMakeFiles/xwing_riot.dir/ed255/x25519.c.o"
 
 # External object files for target xwing_riot
 xwing_riot_EXTERNAL_OBJECTS =
 
-xwing_riot: CMakeFiles/xwing_riot.dir/main.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/xkem.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/test/cpucycles.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/test/speed_print.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/mlkem/reduce.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/mlkem/ntt.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/mlkem/poly.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/mlkem/fips202.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/mlkem/cbd.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/mlkem/kem.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/ed255/burn.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/ed255/burnstack.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/ed255/ed.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/ed255/fld.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/ed255/sc.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/ed255/sha512.c.o
+xwing_riot: CMakeFiles/xwing_riot.dir/ed255/x25519.c.o
 xwing_riot: CMakeFiles/xwing_riot.dir/build.make
 xwing_riot: CMakeFiles/xwing_riot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable xwing_riot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/obiwan/xwing_riot/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable xwing_riot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xwing_riot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

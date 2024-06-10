@@ -163,7 +163,7 @@ static int testFunctionality(void)
 
   /* TEST KEYPAIR */
   crypto_xkem_keypair_derand(pk0, sk0, randomness0);
-  print_hex_m(pk0, XWING_PUBLICKEYBYTES);
+  //print_hex_m(pk0, XWING_PUBLICKEYBYTES);
 
   /* TEST ENCAPSULATION */
   crypto_xkem_enc_derand(ct0, shk0, pk0, randomness1);
@@ -178,9 +178,9 @@ static int testFunctionality(void)
 int main(void)
 {
   testFunctionality();
-  //testTestVectors();
-  //testInvalidSecretKey();
-  //testInvalidCiphertext();
+  testTestVectors();
+  testInvalidSecretKey();
+  testInvalidCiphertext();
 
   return 0;
 }

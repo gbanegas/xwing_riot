@@ -129,12 +129,241 @@ xwing_riot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/build
 .PHONY : xwing_riot/fast
 
+#=============================================================================
+# Target rules for targets named 255tmp
+
+# Build rule for target.
+255tmp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 255tmp
+.PHONY : 255tmp
+
+# fast build rule for target.
+255tmp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/build
+.PHONY : 255tmp/fast
+
+ed255/burn.o: ed255/burn.c.o
+.PHONY : ed255/burn.o
+
+# target to build an object file
+ed255/burn.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/burn.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/burn.c.o
+.PHONY : ed255/burn.c.o
+
+ed255/burn.i: ed255/burn.c.i
+.PHONY : ed255/burn.i
+
+# target to preprocess a source file
+ed255/burn.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/burn.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/burn.c.i
+.PHONY : ed255/burn.c.i
+
+ed255/burn.s: ed255/burn.c.s
+.PHONY : ed255/burn.s
+
+# target to generate assembly for a file
+ed255/burn.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/burn.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/burn.c.s
+.PHONY : ed255/burn.c.s
+
+ed255/burnstack.o: ed255/burnstack.c.o
+.PHONY : ed255/burnstack.o
+
+# target to build an object file
+ed255/burnstack.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/burnstack.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/burnstack.c.o
+.PHONY : ed255/burnstack.c.o
+
+ed255/burnstack.i: ed255/burnstack.c.i
+.PHONY : ed255/burnstack.i
+
+# target to preprocess a source file
+ed255/burnstack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/burnstack.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/burnstack.c.i
+.PHONY : ed255/burnstack.c.i
+
+ed255/burnstack.s: ed255/burnstack.c.s
+.PHONY : ed255/burnstack.s
+
+# target to generate assembly for a file
+ed255/burnstack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/burnstack.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/burnstack.c.s
+.PHONY : ed255/burnstack.c.s
+
+ed255/ed.o: ed255/ed.c.o
+.PHONY : ed255/ed.o
+
+# target to build an object file
+ed255/ed.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/ed.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/ed.c.o
+.PHONY : ed255/ed.c.o
+
+ed255/ed.i: ed255/ed.c.i
+.PHONY : ed255/ed.i
+
+# target to preprocess a source file
+ed255/ed.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/ed.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/ed.c.i
+.PHONY : ed255/ed.c.i
+
+ed255/ed.s: ed255/ed.c.s
+.PHONY : ed255/ed.s
+
+# target to generate assembly for a file
+ed255/ed.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/ed.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/ed.c.s
+.PHONY : ed255/ed.c.s
+
+ed255/ed25519-sha512.o: ed255/ed25519-sha512.c.o
+.PHONY : ed255/ed25519-sha512.o
+
+# target to build an object file
+ed255/ed25519-sha512.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/ed25519-sha512.c.o
+.PHONY : ed255/ed25519-sha512.c.o
+
+ed255/ed25519-sha512.i: ed255/ed25519-sha512.c.i
+.PHONY : ed255/ed25519-sha512.i
+
+# target to preprocess a source file
+ed255/ed25519-sha512.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/ed25519-sha512.c.i
+.PHONY : ed255/ed25519-sha512.c.i
+
+ed255/ed25519-sha512.s: ed255/ed25519-sha512.c.s
+.PHONY : ed255/ed25519-sha512.s
+
+# target to generate assembly for a file
+ed255/ed25519-sha512.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/ed25519-sha512.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/ed25519-sha512.c.s
+.PHONY : ed255/ed25519-sha512.c.s
+
+ed255/fld.o: ed255/fld.c.o
+.PHONY : ed255/fld.o
+
+# target to build an object file
+ed255/fld.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/fld.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/fld.c.o
+.PHONY : ed255/fld.c.o
+
+ed255/fld.i: ed255/fld.c.i
+.PHONY : ed255/fld.i
+
+# target to preprocess a source file
+ed255/fld.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/fld.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/fld.c.i
+.PHONY : ed255/fld.c.i
+
+ed255/fld.s: ed255/fld.c.s
+.PHONY : ed255/fld.s
+
+# target to generate assembly for a file
+ed255/fld.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/fld.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/fld.c.s
+.PHONY : ed255/fld.c.s
+
+ed255/sc.o: ed255/sc.c.o
+.PHONY : ed255/sc.o
+
+# target to build an object file
+ed255/sc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/sc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/sc.c.o
+.PHONY : ed255/sc.c.o
+
+ed255/sc.i: ed255/sc.c.i
+.PHONY : ed255/sc.i
+
+# target to preprocess a source file
+ed255/sc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/sc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/sc.c.i
+.PHONY : ed255/sc.c.i
+
+ed255/sc.s: ed255/sc.c.s
+.PHONY : ed255/sc.s
+
+# target to generate assembly for a file
+ed255/sc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/sc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/sc.c.s
+.PHONY : ed255/sc.c.s
+
+ed255/sha512.o: ed255/sha512.c.o
+.PHONY : ed255/sha512.o
+
+# target to build an object file
+ed255/sha512.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/sha512.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/sha512.c.o
+.PHONY : ed255/sha512.c.o
+
+ed255/sha512.i: ed255/sha512.c.i
+.PHONY : ed255/sha512.i
+
+# target to preprocess a source file
+ed255/sha512.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/sha512.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/sha512.c.i
+.PHONY : ed255/sha512.c.i
+
+ed255/sha512.s: ed255/sha512.c.s
+.PHONY : ed255/sha512.s
+
+# target to generate assembly for a file
+ed255/sha512.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/sha512.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/sha512.c.s
+.PHONY : ed255/sha512.c.s
+
+ed255/x25519.o: ed255/x25519.c.o
+.PHONY : ed255/x25519.o
+
+# target to build an object file
+ed255/x25519.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/x25519.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/x25519.c.o
+.PHONY : ed255/x25519.c.o
+
+ed255/x25519.i: ed255/x25519.c.i
+.PHONY : ed255/x25519.i
+
+# target to preprocess a source file
+ed255/x25519.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/x25519.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/x25519.c.i
+.PHONY : ed255/x25519.c.i
+
+ed255/x25519.s: ed255/x25519.c.s
+.PHONY : ed255/x25519.s
+
+# target to generate assembly for a file
+ed255/x25519.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/ed255/x25519.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/ed255/x25519.c.s
+.PHONY : ed255/x25519.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -142,7 +371,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -150,8 +379,344 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/255tmp.dir/build.make CMakeFiles/255tmp.dir/main.c.s
 .PHONY : main.c.s
+
+mlkem/cbd.o: mlkem/cbd.c.o
+.PHONY : mlkem/cbd.o
+
+# target to build an object file
+mlkem/cbd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/cbd.c.o
+.PHONY : mlkem/cbd.c.o
+
+mlkem/cbd.i: mlkem/cbd.c.i
+.PHONY : mlkem/cbd.i
+
+# target to preprocess a source file
+mlkem/cbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/cbd.c.i
+.PHONY : mlkem/cbd.c.i
+
+mlkem/cbd.s: mlkem/cbd.c.s
+.PHONY : mlkem/cbd.s
+
+# target to generate assembly for a file
+mlkem/cbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/cbd.c.s
+.PHONY : mlkem/cbd.c.s
+
+mlkem/fips202.o: mlkem/fips202.c.o
+.PHONY : mlkem/fips202.o
+
+# target to build an object file
+mlkem/fips202.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/fips202.c.o
+.PHONY : mlkem/fips202.c.o
+
+mlkem/fips202.i: mlkem/fips202.c.i
+.PHONY : mlkem/fips202.i
+
+# target to preprocess a source file
+mlkem/fips202.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/fips202.c.i
+.PHONY : mlkem/fips202.c.i
+
+mlkem/fips202.s: mlkem/fips202.c.s
+.PHONY : mlkem/fips202.s
+
+# target to generate assembly for a file
+mlkem/fips202.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/fips202.c.s
+.PHONY : mlkem/fips202.c.s
+
+mlkem/indcpa.o: mlkem/indcpa.c.o
+.PHONY : mlkem/indcpa.o
+
+# target to build an object file
+mlkem/indcpa.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.o
+.PHONY : mlkem/indcpa.c.o
+
+mlkem/indcpa.i: mlkem/indcpa.c.i
+.PHONY : mlkem/indcpa.i
+
+# target to preprocess a source file
+mlkem/indcpa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.i
+.PHONY : mlkem/indcpa.c.i
+
+mlkem/indcpa.s: mlkem/indcpa.c.s
+.PHONY : mlkem/indcpa.s
+
+# target to generate assembly for a file
+mlkem/indcpa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/indcpa.c.s
+.PHONY : mlkem/indcpa.c.s
+
+mlkem/kem.o: mlkem/kem.c.o
+.PHONY : mlkem/kem.o
+
+# target to build an object file
+mlkem/kem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/kem.c.o
+.PHONY : mlkem/kem.c.o
+
+mlkem/kem.i: mlkem/kem.c.i
+.PHONY : mlkem/kem.i
+
+# target to preprocess a source file
+mlkem/kem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/kem.c.i
+.PHONY : mlkem/kem.c.i
+
+mlkem/kem.s: mlkem/kem.c.s
+.PHONY : mlkem/kem.s
+
+# target to generate assembly for a file
+mlkem/kem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/kem.c.s
+.PHONY : mlkem/kem.c.s
+
+mlkem/ntt.o: mlkem/ntt.c.o
+.PHONY : mlkem/ntt.o
+
+# target to build an object file
+mlkem/ntt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/ntt.c.o
+.PHONY : mlkem/ntt.c.o
+
+mlkem/ntt.i: mlkem/ntt.c.i
+.PHONY : mlkem/ntt.i
+
+# target to preprocess a source file
+mlkem/ntt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/ntt.c.i
+.PHONY : mlkem/ntt.c.i
+
+mlkem/ntt.s: mlkem/ntt.c.s
+.PHONY : mlkem/ntt.s
+
+# target to generate assembly for a file
+mlkem/ntt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/ntt.c.s
+.PHONY : mlkem/ntt.c.s
+
+mlkem/poly.o: mlkem/poly.c.o
+.PHONY : mlkem/poly.o
+
+# target to build an object file
+mlkem/poly.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/poly.c.o
+.PHONY : mlkem/poly.c.o
+
+mlkem/poly.i: mlkem/poly.c.i
+.PHONY : mlkem/poly.i
+
+# target to preprocess a source file
+mlkem/poly.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/poly.c.i
+.PHONY : mlkem/poly.c.i
+
+mlkem/poly.s: mlkem/poly.c.s
+.PHONY : mlkem/poly.s
+
+# target to generate assembly for a file
+mlkem/poly.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/poly.c.s
+.PHONY : mlkem/poly.c.s
+
+mlkem/polyvec.o: mlkem/polyvec.c.o
+.PHONY : mlkem/polyvec.o
+
+# target to build an object file
+mlkem/polyvec.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.o
+.PHONY : mlkem/polyvec.c.o
+
+mlkem/polyvec.i: mlkem/polyvec.c.i
+.PHONY : mlkem/polyvec.i
+
+# target to preprocess a source file
+mlkem/polyvec.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.i
+.PHONY : mlkem/polyvec.c.i
+
+mlkem/polyvec.s: mlkem/polyvec.c.s
+.PHONY : mlkem/polyvec.s
+
+# target to generate assembly for a file
+mlkem/polyvec.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/polyvec.c.s
+.PHONY : mlkem/polyvec.c.s
+
+mlkem/randombytes.o: mlkem/randombytes.c.o
+.PHONY : mlkem/randombytes.o
+
+# target to build an object file
+mlkem/randombytes.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.o
+.PHONY : mlkem/randombytes.c.o
+
+mlkem/randombytes.i: mlkem/randombytes.c.i
+.PHONY : mlkem/randombytes.i
+
+# target to preprocess a source file
+mlkem/randombytes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.i
+.PHONY : mlkem/randombytes.c.i
+
+mlkem/randombytes.s: mlkem/randombytes.c.s
+.PHONY : mlkem/randombytes.s
+
+# target to generate assembly for a file
+mlkem/randombytes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/randombytes.c.s
+.PHONY : mlkem/randombytes.c.s
+
+mlkem/reduce.o: mlkem/reduce.c.o
+.PHONY : mlkem/reduce.o
+
+# target to build an object file
+mlkem/reduce.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/reduce.c.o
+.PHONY : mlkem/reduce.c.o
+
+mlkem/reduce.i: mlkem/reduce.c.i
+.PHONY : mlkem/reduce.i
+
+# target to preprocess a source file
+mlkem/reduce.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/reduce.c.i
+.PHONY : mlkem/reduce.c.i
+
+mlkem/reduce.s: mlkem/reduce.c.s
+.PHONY : mlkem/reduce.s
+
+# target to generate assembly for a file
+mlkem/reduce.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/reduce.c.s
+.PHONY : mlkem/reduce.c.s
+
+mlkem/symmetric-fips202.o: mlkem/symmetric-fips202.c.o
+.PHONY : mlkem/symmetric-fips202.o
+
+# target to build an object file
+mlkem/symmetric-fips202.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.o
+.PHONY : mlkem/symmetric-fips202.c.o
+
+mlkem/symmetric-fips202.i: mlkem/symmetric-fips202.c.i
+.PHONY : mlkem/symmetric-fips202.i
+
+# target to preprocess a source file
+mlkem/symmetric-fips202.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.i
+.PHONY : mlkem/symmetric-fips202.c.i
+
+mlkem/symmetric-fips202.s: mlkem/symmetric-fips202.c.s
+.PHONY : mlkem/symmetric-fips202.s
+
+# target to generate assembly for a file
+mlkem/symmetric-fips202.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/mlkem/symmetric-fips202.c.s
+.PHONY : mlkem/symmetric-fips202.c.s
+
+test/cpucycles.o: test/cpucycles.c.o
+.PHONY : test/cpucycles.o
+
+# target to build an object file
+test/cpucycles.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/test/cpucycles.c.o
+.PHONY : test/cpucycles.c.o
+
+test/cpucycles.i: test/cpucycles.c.i
+.PHONY : test/cpucycles.i
+
+# target to preprocess a source file
+test/cpucycles.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/test/cpucycles.c.i
+.PHONY : test/cpucycles.c.i
+
+test/cpucycles.s: test/cpucycles.c.s
+.PHONY : test/cpucycles.s
+
+# target to generate assembly for a file
+test/cpucycles.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/test/cpucycles.c.s
+.PHONY : test/cpucycles.c.s
+
+test/speed_print.o: test/speed_print.c.o
+.PHONY : test/speed_print.o
+
+# target to build an object file
+test/speed_print.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/test/speed_print.c.o
+.PHONY : test/speed_print.c.o
+
+test/speed_print.i: test/speed_print.c.i
+.PHONY : test/speed_print.i
+
+# target to preprocess a source file
+test/speed_print.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/test/speed_print.c.i
+.PHONY : test/speed_print.c.i
+
+test/speed_print.s: test/speed_print.c.s
+.PHONY : test/speed_print.s
+
+# target to generate assembly for a file
+test/speed_print.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/test/speed_print.c.s
+.PHONY : test/speed_print.c.s
+
+test/test_xkem_functionality.o: test/test_xkem_functionality.c.o
+.PHONY : test/test_xkem_functionality.o
+
+# target to build an object file
+test/test_xkem_functionality.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o
+.PHONY : test/test_xkem_functionality.c.o
+
+test/test_xkem_functionality.i: test/test_xkem_functionality.c.i
+.PHONY : test/test_xkem_functionality.i
+
+# target to preprocess a source file
+test/test_xkem_functionality.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.i
+.PHONY : test/test_xkem_functionality.c.i
+
+test/test_xkem_functionality.s: test/test_xkem_functionality.c.s
+.PHONY : test/test_xkem_functionality.s
+
+# target to generate assembly for a file
+test/test_xkem_functionality.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.s
+.PHONY : test/test_xkem_functionality.c.s
+
+xkem.o: xkem.c.o
+.PHONY : xkem.o
+
+# target to build an object file
+xkem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/xkem.c.o
+.PHONY : xkem.c.o
+
+xkem.i: xkem.c.i
+.PHONY : xkem.i
+
+# target to preprocess a source file
+xkem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/xkem.c.i
+.PHONY : xkem.c.i
+
+xkem.s: xkem.c.s
+.PHONY : xkem.s
+
+# target to generate assembly for a file
+xkem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xwing_riot.dir/build.make CMakeFiles/xwing_riot.dir/xkem.c.s
+.PHONY : xkem.c.s
 
 # Help Target
 help:
@@ -161,10 +726,77 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 255tmp"
 	@echo "... xwing_riot"
+	@echo "... ed255/burn.o"
+	@echo "... ed255/burn.i"
+	@echo "... ed255/burn.s"
+	@echo "... ed255/burnstack.o"
+	@echo "... ed255/burnstack.i"
+	@echo "... ed255/burnstack.s"
+	@echo "... ed255/ed.o"
+	@echo "... ed255/ed.i"
+	@echo "... ed255/ed.s"
+	@echo "... ed255/ed25519-sha512.o"
+	@echo "... ed255/ed25519-sha512.i"
+	@echo "... ed255/ed25519-sha512.s"
+	@echo "... ed255/fld.o"
+	@echo "... ed255/fld.i"
+	@echo "... ed255/fld.s"
+	@echo "... ed255/sc.o"
+	@echo "... ed255/sc.i"
+	@echo "... ed255/sc.s"
+	@echo "... ed255/sha512.o"
+	@echo "... ed255/sha512.i"
+	@echo "... ed255/sha512.s"
+	@echo "... ed255/x25519.o"
+	@echo "... ed255/x25519.i"
+	@echo "... ed255/x25519.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mlkem/cbd.o"
+	@echo "... mlkem/cbd.i"
+	@echo "... mlkem/cbd.s"
+	@echo "... mlkem/fips202.o"
+	@echo "... mlkem/fips202.i"
+	@echo "... mlkem/fips202.s"
+	@echo "... mlkem/indcpa.o"
+	@echo "... mlkem/indcpa.i"
+	@echo "... mlkem/indcpa.s"
+	@echo "... mlkem/kem.o"
+	@echo "... mlkem/kem.i"
+	@echo "... mlkem/kem.s"
+	@echo "... mlkem/ntt.o"
+	@echo "... mlkem/ntt.i"
+	@echo "... mlkem/ntt.s"
+	@echo "... mlkem/poly.o"
+	@echo "... mlkem/poly.i"
+	@echo "... mlkem/poly.s"
+	@echo "... mlkem/polyvec.o"
+	@echo "... mlkem/polyvec.i"
+	@echo "... mlkem/polyvec.s"
+	@echo "... mlkem/randombytes.o"
+	@echo "... mlkem/randombytes.i"
+	@echo "... mlkem/randombytes.s"
+	@echo "... mlkem/reduce.o"
+	@echo "... mlkem/reduce.i"
+	@echo "... mlkem/reduce.s"
+	@echo "... mlkem/symmetric-fips202.o"
+	@echo "... mlkem/symmetric-fips202.i"
+	@echo "... mlkem/symmetric-fips202.s"
+	@echo "... test/cpucycles.o"
+	@echo "... test/cpucycles.i"
+	@echo "... test/cpucycles.s"
+	@echo "... test/speed_print.o"
+	@echo "... test/speed_print.i"
+	@echo "... test/speed_print.s"
+	@echo "... test/test_xkem_functionality.o"
+	@echo "... test/test_xkem_functionality.i"
+	@echo "... test/test_xkem_functionality.s"
+	@echo "... xkem.o"
+	@echo "... xkem.i"
+	@echo "... xkem.s"
 .PHONY : help
 
 

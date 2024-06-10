@@ -25,16 +25,17 @@ void print_hex(unsigned char *e, size_t l) {
 int crypto_xkem_keypair_derand(unsigned char *pk,
                                unsigned char *sk,
                                const unsigned char *randomness) {
-    print_hex(pk, XWING_PUBLICKEYBYTES);
+   // print_hex(pk, XWING_PUBLICKEYBYTES);
     crypto_kem_keypair(pk, sk, randomness);
-    print_hex(pk, XWING_PUBLICKEYBYTES);
+   // print_hex(pk, XWING_PUBLICKEYBYTES);
     pk += MLKEM_PUBLICKEYBYTES;
     sk += MLKEM_SECRETKEYBYTES;
     randomness += 2 * XWING_SYMBYTES;
-    lib25519_nG_montgomery25519(pk, randomness);
-    pk -= MLKEM_PUBLICKEYBYTES;
-    print_hex(pk, XWING_PUBLICKEYBYTES);
-    pk += MLKEM_PUBLICKEYBYTES;
+    x25519_base(pk, randomness);
+   // lib25519_nG_montgomery25519(pk, randomness);
+    //pk -= MLKEM_PUBLICKEYBYTES;
+    //print_hex(pk, XWING_PUBLICKEYBYTES);
+    //pk += MLKEM_PUBLICKEYBYTES;
     memcpy(sk, randomness, DH_BYTES);
     memcpy(sk + DH_BYTES, pk, DH_BYTES);
     return 0;
@@ -85,8 +86,10 @@ int crypto_xkem_enc_derand(unsigned char *ct,
     coins += DH_BYTES;
     bufferPointer += MLKEM_SSBYTES;
 
-    lib25519_nG_montgomery25519(ct, coins);
-    lib25519_dh(bufferPointer, pk, coins);
+   // lib25519_nG_montgomery25519(ct, coins);
+    x25519_base(ct, coins);
+    DH(bufferPointer, coins, pk);
+    //lib25519_dh(bufferPointer, pk, coins);
     bufferPointer += DH_BYTES;
 
     memcpy(bufferPointer, ct, DH_BYTES);
@@ -139,7 +142,8 @@ int crypto_xkem_dec(uint8_t *ss,
     ct += MLKEM_CIPHERTEXTBYTES;
     bufferPointer += MLKEM_SSBYTES;
 
-    lib25519_dh(bufferPointer, ct, sk);
+    DH(bufferPointer, sk, ct);
+   // lib25519_dh(bufferPointer, ct, sk);
     sk += DH_BYTES;
     bufferPointer += DH_BYTES;
 

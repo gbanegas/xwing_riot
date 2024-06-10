@@ -3,8 +3,9 @@
 
 #include <stdint.h>
 #include <string.h>
-#include <lib25519.h>
+//#include <lib25519.h>
 
+#include "ed255/x25519.h"
 #include "params.h"
 #include "mlkem/symmetric.h"
 #include "randombytes.h"
