@@ -89,6 +89,9 @@ static int testTestVectors(void)
         printf("vector %d error crypto_xkem_keypair_derand pk: %d pk0= %#04X - XWING_PUBLICKEY_TEST_VECTOR = %#04X\n", j, i, pk0[i], XWING_PUBLICKEY_TEST_VECTOR[j][i]);
         error = 1;
       }
+      else{
+          printf("Passed!\n");
+      }
     }
 
     for (i = 0; i < XWING_SECRETKEYBYTES; i++)
@@ -109,6 +112,9 @@ static int testTestVectors(void)
         printf("error crypto_xkem_enc_derand ct: %d ct0= %#04X - XWING_CIPHERTEXT_TEST_VECTOR = %#04X\n", i, ct0[i], XWING_CIPHERTEXT_TEST_VECTOR[j][i]);
         error = 1;
       }
+      else{
+          printf("Passed!\n");
+      }
     }
 
     for (i = 0; i < XWING_SSBYTES; i++)
@@ -117,6 +123,9 @@ static int testTestVectors(void)
       {
         printf("error crypto_xkem_enc_derand shk: %d shk0= %#04X - XWING_SHAREDKEY_TEST_VECTOR= %#04X\n", i, shk0[i], XWING_SHAREDKEY_TEST_VECTOR[j][i]);
         error = 1;
+      }
+      else{
+          printf("Passed!\n");
       }
     }
 
@@ -130,6 +139,9 @@ static int testTestVectors(void)
       {
         printf("error crypto_xkem_dec: %d shk1= %#04X - XWING_SHAREDKEY_TEST_VECTOR = %#04X\n", i, shk1[i], XWING_SHAREDKEY_TEST_VECTOR[j][i]);
         error = 1;
+      }
+      else{
+          printf("Passed!\n");
       }
     }
   }

@@ -8,7 +8,7 @@
 #include "ed255/x25519.h"
 #include "params.h"
 #include "mlkem/symmetric.h"
-#include "randombytes.h"
+#include "mlkem/randombytes.h"
 #include "mlkem/kem.h"
 
 

@@ -686,8 +686,7 @@ CMakeFiles/xwing_riot.dir/test/test_xkem_functionality.c.o: /home/obiwan/xwing_r
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-  /usr/local/include/randombytes.h
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
 
 CMakeFiles/xwing_riot.dir/xkem.c.o: /home/obiwan/xwing_riot/xkem.c \
   /home/obiwan/xwing_riot/ed255/bitness.h \
@@ -702,6 +701,7 @@ CMakeFiles/xwing_riot.dir/xkem.c.o: /home/obiwan/xwing_riot/xkem.c \
   /home/obiwan/xwing_riot/mlkem/fips202.h \
   /home/obiwan/xwing_riot/mlkem/kem.h \
   /home/obiwan/xwing_riot/mlkem/mlkem_params.h \
+  /home/obiwan/xwing_riot/mlkem/randombytes.h \
   /home/obiwan/xwing_riot/mlkem/symmetric.h \
   /home/obiwan/xwing_riot/params.h \
   /home/obiwan/xwing_riot/xkem.h \
@@ -739,13 +739,10 @@ CMakeFiles/xwing_riot.dir/xkem.c.o: /home/obiwan/xwing_riot/xkem.c \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-  /usr/local/include/randombytes.h
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
 
 
 /home/obiwan/xwing_riot/xkem.c:
-
-/usr/local/include/randombytes.h:
 
 /home/obiwan/xwing_riot/params.h:
 
